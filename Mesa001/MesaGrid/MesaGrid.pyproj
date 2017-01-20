@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>3f14c3db-9e3d-424f-8e58-b0cf6cdabb6d</ProjectGuid>
+    <ProjectGuid>6c78180c-659a-4f9a-a737-976061436832</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>RunMesa002.py</StartupFile>
+    <StartupFile>RunMesaGrid.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Mesa001</Name>
-    <RootNamespace>Mesa001</RootNamespace>
+    <Name>MesaGrid</Name>
+    <RootNamespace>MesaGrid</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,13 +22,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="RunMesa002.py">
+    <Compile Include="MesaGrid.py" />
+    <Compile Include="RunMesaGrid.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="RunMesa001.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="MoneyModel.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
