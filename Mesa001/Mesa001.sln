@@ -7,6 +7,10 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Mesa001", "Mesa001\Mesa001.
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MesaGrid", "MesaGrid\MesaGrid.pyproj", "{6C78180C-659A-4F9A-A737-976061436832}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MesaGini", "MesaGini\MesaGini.pyproj", "{B438CD68-F50F-4E44-8527-890DF482FAFD}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BatchRunner", "BatchRunner\BatchRunner.pyproj", "{C1A6BD58-A8A8-4A6D-A87E-1C4498C0124E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,10 @@ Global
 		{3F14C3DB-9E3D-424F-8E58-B0CF6CDABB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C78180C-659A-4F9A-A737-976061436832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6C78180C-659A-4F9A-A737-976061436832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B438CD68-F50F-4E44-8527-890DF482FAFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B438CD68-F50F-4E44-8527-890DF482FAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A6BD58-A8A8-4A6D-A87E-1C4498C0124E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A6BD58-A8A8-4A6D-A87E-1C4498C0124E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
